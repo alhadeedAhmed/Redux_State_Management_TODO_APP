@@ -1,13 +1,15 @@
-<<<<<<< HEAD
-# React + Vite
+🚀 Project: Redux State Management in a To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+What I Did:
 
-Currently, two official plugins are available:
+- Implemented state management using Redux for efficient handling of todo items.
+- Added functionality to display success and error alerts for various actions.
+- Created a dynamic UI with features to add, edit, complete, and delete tasks.
+- Ensured that completed tasks are visually distinct with a line-through style.
+Included a notification for task completion to enhance user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Redux_State_Management_TODO_APP
-Todo app using React Redux to make state management more efficient 
->>>>>>> 88e408f23a6c92b4dd270828c8a04c64094607c2
+Highlights:
+
+- Streamlined the user experience with immediate visual feedback through alerts.
+- Leveraged Redux for seamless state management and efficient data flow.
+- Focused on clean, maintainable code with a clear structure.
