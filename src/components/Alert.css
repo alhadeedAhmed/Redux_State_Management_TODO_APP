@@ -1,0 +1,44 @@
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 42%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    animation: fadeInOut 2s ease-in-out;
+  }
+  
+  .alert i {
+    margin-right: 10px;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+  }
+  
+  .alert-error {
+    background-color: #dc3545;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
